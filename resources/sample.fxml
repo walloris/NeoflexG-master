@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="save_button" layoutX="112.0" layoutY="86.0" mnemonicParsing="false" text="Cохранить" />
+        <Button fx:id="load_button" layoutX="33.0" layoutY="86.0" mnemonicParsing="false" text="Загрузить" />
+        <Button fx:id="calculate_button" layoutX="387.0" layoutY="86.0" mnemonicParsing="false" text="Рассчитать" />
+        <TextField fx:id="formula_field" layoutX="35.0" layoutY="38.0" prefHeight="25.0" prefWidth="428.0" promptText="2x^2+2x+2=0" />
+        <Label fx:id="coords_lable" layoutX="38.0" layoutY="134.0" prefHeight="17.0" prefWidth="288.0" text="coords" />
+    </children>
+</AnchorPane>
